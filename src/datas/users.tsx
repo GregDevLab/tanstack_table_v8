@@ -1,0 +1,113 @@
+export const users = [
+    {
+        id: 1,
+        lastName: "dumont",
+        firstName: "julien",
+        email: "dumont@gmail.com",
+        adress: {
+            street: "rue de la paix",
+            city: "Paris",
+            post_code: "75000",
+        },
+        phone: {
+            indicatif: "+33",
+            number: "612345678",
+        },
+        role: "admin",
+        birthday: "",
+        createAt: "2024-02-22T10:22:52.494Z",
+        updateAt: "2024-02-22T23:45:43.546z",
+        cars: [
+            {
+                brand: "audi",
+                model: "A3",
+                immatriculation: "DD-123-AA",
+                color: "black",
+                buyAt: "2020-02-22T10:22:52.494Z",
+            },
+            {
+                brand: "Mercedes",
+                model: "class A",
+                immatriculation: "CC-123-AA",
+                color: "red",
+                buyAt: "2024-02-22T10:22:52.494Z",
+            },
+        ],
+    },
+    {
+        id: 2,
+        lastName: "Martin",
+        firstName: "Emilie",
+        email: "emilie.martin@example.com",
+        adress: {
+            street: "avenue Victor Hugo",
+            city: "Lyon",
+            post_code: "69000",
+        },
+        phone: {
+            indicatif: "+33",
+            number: "678901234",
+        },
+        role: "user",
+        birthday: "1990-07-14T00:00:00.000Z",
+        createAt: "2024-03-01T12:00:00.000Z",
+        updateAt: "2024-03-02T09:00:00.000Z",
+        cars: [
+            {
+                brand: "Peugeot",
+                model: "308",
+                immatriculation: "EE-456-BB",
+                color: "white",
+                buyAt: "2022-04-22T10:22:52.494Z",
+            },
+        ],
+    },
+    {
+        id: 3,
+        lastName: "Lefebvre",
+        firstName: "Thierry",
+        email: "t.lefebvre@example.com",
+        adress: {
+            street: "rue du Faubourg Saint-Antoine",
+            city: "Marseille",
+            post_code: "13000",
+        },
+        phone: {
+            indicatif: "+33",
+            number: "698765432",
+        },
+        role: "moderator",
+        birthday: "1982-11-30T00:00:00.000Z",
+        createAt: "2024-01-15T08:45:30.000Z",
+        updateAt: "2024-02-25T17:20:45.000Z",
+        cars: [
+            {
+                brand: "Tesla",
+                model: "Model 3",
+                immatriculation: "FF-789-CC",
+                color: "blue",
+                buyAt: "2023-05-18T10:22:52.494Z",
+            },
+        ],
+    },
+    {
+        id: 4,
+        lastName: "Bernard",
+        firstName: "Claire",
+        email: "claire.bernard@example.com",
+        adress: {
+            street: "allée des Orangers",
+            city: "Nice",
+            post_code: "06000",
+        },
+        phone: {
+            indicatif: "+33",
+            number: "612398765",
+        },
+        role: "user",
+        birthday: "1995-02-18T00:00:00.000Z",
+        createAt: "2024-03-10T16:35:22.000Z",
+        updateAt: "2024-03-20T14:05:18.000Z",
+        cars: [],
+    },
+];
